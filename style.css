@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(images/background-texture.jpg);width:auto;margin-top:0px;margin-left:20px;margin-right:20px;
+}
+.clear{clear:both;}
+#outer-container{width:920px;;margin:0 auto;}
+.facebookIcon{margin-left:25px;float:right;margin-top:44px;}
+
+#phone-header{width:345px;height:30px;float:right;background-color:#5c5c5c;}
+.phone-header{font-family: 'Roboto Condensed', sans-serif;font-size:14px;font-weight:300;color:#FFF;margin-top:0px;padding-top:5px;text-align:center;}
+.phone-header a{color:#FFF;text-decoration:none;}
+.logo{float:left;margin-top:15px;margin-right:15px;}
+
+.logo-text{float:left;font-family: 'Roboto Condensed', sans-serif;font-size:15px;font-weight:300;color:#5c5c5c;margin-top:30px;}
+.navigation{float:right;font-family: 'Roboto Condensed', sans-serif;color:#5c5c5c;font-weight:300;font-size:15px;margin-top:50px;margin-bottom:60px;}
+.navigation a{text-decoration:none;margin-left:25px;color:#5c5c5c;}
+.navigation a:hover{text-decoration:none;color:#999;}
+.navigation-selected{font-weight:bold;color:#999;margin-left:25px;}
+
+.hr{border: 0;height: 0;border-top: 1px solid rgba(0, 0, 0, 0.2);border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
+
+.intro-small{text-align:center;font-family: 'Roboto Condensed', sans-serif;color:#5c5c5c;font-weight:300;font-size:18px;margin-top:0px;margin-bottom:10px;text-transform:uppercase;}
+.huge-text{font-family: 'Playfair Display', serif;color:#5c5c5c;text-align:center;text-transform:uppercase;font-size:80px;line-height:85px;margin-top:0px;margin-bottom:40px;}
+
+.nudge1{margin-bottom:10px;margin-top:20px;}
+.nudge2{margin-bottom:40px;margin-top:20px;}
+.nudge3{margin-bottom:0px;margin-top:40px;}
+.nudge4{margin-bottom:20px;margin-top:10px;}
+.nudge5{margin-top:30px;}
+.nudge6{margin-top:0px;}
+.nudge7{margin-top:75px;}
+
+.navigation-footer{float:left;font-family: 'Roboto Condensed', sans-serif;color:#5c5c5c;font-weight:300;font-size:15px;margin-bottom:10px;}
+.navigation-footer a{text-decoration:none;margin-right:25px;color:#5c5c5c;}
+.navigation-footer a:hover{text-decoration:none;color:#999;}
+.navigation-footer-selected{font-weight:bold;color:#999;margin-right:25px;}
+.social-media{float:right;margin-top:0px;}
+
+.navigation-disclaimer{float:left;font-family: 'Roboto Condensed', sans-serif;color:#999;font-weight:300;font-size:12px;margin-bottom:30px;clear:both;}
+.navigation-disclaimer a{text-decoration:none;margin-right:25px;color:#999;}
+
+.press-images{float:left;}
+#press-quotes{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;float:right;width:410px;border: 0;height: 230px;border-left: 1px solid rgba(0, 0, 0, 0.2);padding-left:20px;}
+.press-copy{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;font-weight:300;line-height:24px;color:#5c5c5c;font-weight:300;float:left;margin-top:80px;margin-left:25px;}
+.press-copy-bold{font-weight:700;}
+
+.about-copy{font-family: 'Roboto', sans-serif;font-size:15px;line-height:20px;color:#5c5c5c;font-weight:300;width:500px;float:left;margin-bottom:15px;margin-top:0px;}
+.about-pic{float:right;margin-top:5px;}
+.about-bold{font-family: 'Roboto', sans-serif;font-size:15px;font-weight:700;}
+.nudge{margin-top:30px;float:left;}
+.icon-testimonials{margin-left:15px;padding-top:22px;float:left;}
+
+#tesimonial-quotes{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;float:right;width:530px;border: 0;height: 80px;border-left: 1px solid rgba(0, 0, 0, 0.2);padding-left:20px;margin-bottom:10px;}
+#tesimonial-quotes2{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;float:right;width:530px;border: 0;height: 180px;border-left: 1px solid rgba(0, 0, 0, 0.2);padding-left:20px;margin-bottom:10px;}
+.testimonials-copy{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;font-weight:300;line-height:24px;color:#5c5c5c;font-weight:300;float:left;margin-left:25px;}
+
+.portfolio-arrows{float:left;width:58px;margin-top:40px;}
+.portfolio-title-containers{float:left;width:804px;height:220px;}
+
+.portfolio-navigation{text-align:center;font-family: 'Roboto Condensed', sans-serif;color:#CCC;font-weight:300;font-size:14px;line-height:22px;margin-top:20px;margin-bottom:40px;text-transform:uppercase;}
+.portfolio-navigation a{text-decoration:none;margin-left:5px;margin-right:5px;color:#5c5c5c;}
+.portfolio-navigation a:hover{text-decoration:none;color:#999;}
+.portfolio-navigation-selected{font-weight:bold;color:#333;margin-left:5px;margin-right:5px;}
+
+.float-left{float:left}
+.float-right{float:right}
+.margin-right{margin-right:20px;margin-bottom:20px;}
+.margin-bottom{margin-bottom:20px;}
+.clear{clear:both;}
+.clear-right{clear:right;}
+.clear-left{clear:left;}
+#column1 {float:left;width:313px;}
+#column2 {float:left;width:293px;margin-right:20px;}
+#column2big {float:left;width:606px;}
+#column3 {float:left;width:292px;}
+#column1big {float:left;width:606px;margin-right:20px;}
+
+.contact-name{font-family: 'Playfair Display', serif;color:#5c5c5c;float:left;margin-left:110px;margin-top:60px;text-align:center;font-size:16px;line-height:24px;}
+.contact-name a{color:#5c5c5c;text-decoration:none;}
+.contact-name a:hover{color:#5c5c5c;text-decoration:underline;}
+#contact-column{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;float:right;width:440px;border: 0;height: 180px;border-left: 1px solid rgba(0, 0, 0, 0.2);padding-left:20px;margin-bottom:50px;}
+.contact-copy{font-family: 'Playfair Display', serif;color:#5c5c5c;font-size:16px;color:#5c5c5c;float:left;margin-top:60px;margin-left:160px;text-align:center;line-height:24px;}
+
+.services{background-image:url(images/services.png);width:798px;height:171px;margin:0 auto;margin-bottom:20px;}
+
+
+/* ------------------------ CONTACT US PAGE ------------------------*/
+
+#contact-column1{ width:145px; float:left; margin-left:10px; margin-bottom:20px; }
+#contact-column2{ width:490px; float:left; }
+#contact-column3{ width:145px; float:left; margin-left:40px; }
+#contact-column4{ width:420px; float:left; }
+.contact-text{font-family: 'Roboto Condensed', sans-serif; font-size:20px; font-weight:300;color:#302316; margin-bottom:5px; margin-top:0px; }
+.form-fields{ margin-bottom:28px; margin-top:0px; height:40px; border:none; width:420px; font-family: 'Roboto Condensed', sans-serif; font-size:18px; background-color:#d1d1d0;color:#999;padding-left:10px;}
+.icon1{ background-image:url(../images/contact-icon1.png); background-repeat:no-repeat; background-position:250px 0px; }
+.icon2{ background-image:url(../images/contact-icon2.png); background-repeat:no-repeat; background-position:250px 0px; }
+.icon3{ background-image:url(../images/contact-icon3.png); background-repeat:no-repeat; background-position:250px 0px; }
+.icon4{ background-image:url(../images/contact-icon4.png); background-repeat:no-repeat; background-position:250px 0px; }
+.icon5{ background-image:url(../images/contact-icon5.png); background-repeat:no-repeat; background-position:250px 0px; }
+.message-field{ margin-bottom:12px; margin-top:0px; height:260px; border:none; width:420px; font-family: 'Roboto Condensed', sans-serif; font-size:18px; background-color:#d1d1d0; resize:none;color:#999;padding-left:10px;}
+#contact-column5{clear:both; float:left; width:200px; height:80px; margin-bottom:50px; position:relative; margin-left:425px;}
+#contact-column5 > *{ text-transform:uppercase; }
+#contact-column5 .submit-button-dormant{display:block;width:100px;margin-top:75px;margin-left:150px;color:#8dc63f;font-family: 'Roboto Condensed', sans-serif;font-size:24px;line-height:30px;text-align:center;background-color:transparent;  border:none;  cursor:pointer;}
+#contact-column5 .submit-button{display:block;  width:100px;  position:absolute;  top:73px;  left:150px;  color:#143217;font-family: 'Roboto Condensed', sans-serif;font-size:24px;  line-height:25px;  vertical-align:text-top;  cursor:pointer;  background-color:transparent;border:none;}
+#contact-column5 .submit-button.no-js:hover{opacity:0;  filter:alpha(opacity = 0);}
+#formStatus{position: relative;margin-top: -5px;margin-left: 0px;z-index: 20;}
+#sending{position: absolute;z-index: 5;left: 0px;top: 2px;height: 24px;font-family: 'Roboto Condensed', sans-serif;text-transform: uppercase;
+-webkit-font-smoothing: antialiased;display: none;}
+#sending img{float: left;}
+#sending p{margin-left: 3px;line-height: 24px;color: #5c5c5c;float: left;letter-spacing: .05em;margin-top: 0px;}
+#thanks{position: absolute;left: 0px;top: 2px;height: 24px;font-family: 'Roboto Condensed', sans-serif;text-transform: uppercase;-webkit-font-smoothing: antialiased;display: none;}
+#thanks p{color: #5c5c5c;letter-spacing: .05em;margin-top: 0px;}
+.loading-form{background: url('../images/loader-form.gif') center center no-repeat;}
+#contactInfo{position:absolute; right:40px; top:522px; width:350px; text-align:center;}
+#contactInfo p{margin: 0;padding: 0;font-size: 18px;color: #999;font-family: 'Roboto Condensed', sans-serif;-webkit-font-smoothing: antialiased;line-height: 30px;}
+#contactInfo a:link, #contactInfo a:visited{color: #5c4c49;text-decoration: none;}
+#contactInfo a:hover{color: #5c5c5c;text-decoration: none;}
+#videoAll{display: none;opacity:0;filter:alpha(opacity=0);}
+#sendbutton{position: absolute;left: 65px;top: 31px;}
+#sendbutton-over{position: absolute;left: 65px;top: 31px;}
+
+
+
+/* ------------------------ROLLOVER EFFECT ------------------------*/
+
+.one{height:490px;width:293px;}
+.two{height:234px;width:293px;}
+.three{height:235px;width:293px;}
+.four{height:490px;width:292px;}
+.five{height:235px;width:607px;float:left;}
+.six{height:234px;width:293px;}
+.seven{height:234px;width:291px;}
+.eight{height:488px;width:292px;}
+#cf {position:relative;margin:0 auto;}
+#cf img {position:absolute;left:0;-webkit-transition: opacity .3s ease-in-out;-moz-transition: opacity .3s ease-in-out;-o-transition: opacity .3s ease-in-out;transition: opacity .3s ease-in-out;}
+#cf img.top:hover {opacity:0;}
+
+
+
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+	/* Styling for Demo
+	---------------------------------------------------- */
+	border:0px;
+	
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-1s {
+	-webkit-animation-duration:.3s;
+	-moz-animation-duration:.3s;
+	-o-animation-duration:.3s;
+	animation-duration:.3s;
+}
+
+.fadeIn-3s {
+	-webkit-animation-duration:.8s;
+	-moz-animation-duration:.8s;
+	-o-animation-duration:.8s;
+	animation-duration:.8s;
+}
+
+
+
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+
+.fadeIn-Delay-1s {
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	-o-animation-delay:1s;
+	animation-delay:1s;
+}
+
+.fadeIn-Delay-2s {
+	-webkit-animation-delay:1.4s;
+	-moz-animation-delay:1.4s;
+	-o-animation-delay:1.4s;
+	animation-delay:1.4s;
+}
+
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:1.8s;
+	-moz-animation-delay:1.8s;
+	-o-animation-delay:1.8s;
+	animation-delay:1.8s;
+}
+
+.fadeIn-Delay-4s {
+	-webkit-animation-delay:2.2s;
+	-moz-animation-delay:2.2s;
+	-o-animation-delay:2.2s;
+	animation-delay:2.2s;
+}
+
+.fadeIn-Delay-5s {
+	-webkit-animation-delay:2.6s;
+	-moz-animation-delay:2.6s;
+	-o-animation-delay:2.6s;
+	animation-delay:2.6s;
+}
+
+.fadeIn-Delay-6s {
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-o-animation-delay:3s;
+	animation-delay:3s;
+}
+
+.fadeIn-Delay-7s {
+	-webkit-animation-delay:3.4s;
+	-moz-animation-delay:3.4s;
+	-o-animation-delay:3.4s;
+	animation-delay:3.4s;
+}
+
+.fadeIn-Delay-8s {
+	-webkit-animation-delay:3.8s;
+	-moz-animation-delay:3.8s;
+	-o-animation-delay:3.8s;
+	animation-delay:3.8s;
+}
+
+
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
